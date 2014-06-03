@@ -1,0 +1,127 @@
+/************
+HOME
+*************/
+
+
+header {
+
+}
+
+body {
+	border-top:  10px solid black;
+	margin: 0;
+	background-color: #AC5959;
+
+}
+
+.main-content {
+	margin: 0 18%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	padding-left: 100px;
+	font-family: 'Expletus Sans', sans-serif;
+	color: white;
+}
+
+h2 {
+	padding-top: 0;
+	margin-top: 0;
+	padding-left: 100px;
+	font-family: 'Expletus Sans', sans-serif;
+	color: white;
+}
+
+
+/************
+NAVIGATION
+*************/
+
+
+nav {
+	text-align: right;
+	padding: 10px 0;
+	margin: 20px 0 20px 0;
+	background-color: white;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Expletus Sans', sans-serif;
+	color: black;
+}
+
+nav a{
+	font-weight: 800;
+	padding: 15px 10px;
+	color: black;
+}
+
+
+/************
+HOME PAGE: IMAGES
+*************/
+
+
+.picture1 img{
+	float: left;
+	width: 515px;
+}
+
+.picture2 ul{
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.picture2 img{
+	width: 260px;
+}
+
+
+/************
+HOME PAGE: IMAGES
+*************/
+
+
+footer {
+	background-color: black;
+	color: white;
+	overflow: hidden;
+	margin-top: 80px;
+}
+
+
+/************
+CLEARFIX
+*************/
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
