@@ -1,0 +1,130 @@
+.navbar-default{
+	height: 60px;
+	background-color: transparent-white;
+	box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.5);
+}
+.navbar-default .navbar-nav>li>a{
+/*	position: relative;*/
+	color: black;
+/*	left: 206px;
+*/	
+}
+
+.navbar-default .navbar-brand{
+/*	position: relative;*/
+	color: black;
+/*	left: 210px;
+	top:2px;*/
+}
+	
+
+.type{
+	border: solid black;
+	border-radius: 8px;
+
+}
+.home{
+	background-color: #F6E3CE;
+}
+
+.intro2{
+	position: relative;
+	bottom: 15px;
+
+}
+
+.carousel{
+	height: 100%;
+	position: static;
+	
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+.navbar-form .form-control{
+	width: 115px;
+}
+.btn-lg, .btn-group-lg>.btn {
+	position: relative;
+	left: 705px;
+	bottom: 71px;
+}
+.type{
+	border: solid black;
+	border-radius: 5px;
+}
+.navbar-toggle{
+	position: relative;
+	right: 40px;
+}
+.form-control{
+	position: relative;
+	left: 638px;
+	bottom: 50px;
+}
+.glyphicon-search{
+	position: absolute;
+	left: 816px;
+	top: 21px
+}
+.design2{
+	position: relative;
+	top: 35px;
+}
+.design{
+	position: relative;
+	top: 35px;
+}
+.features{
+	position: relative;
+	top: 45px;
+}
+.features2{
+	position: relative;
+	top: 57px;
+}
+h1,h3,h4{
+	color: white;
+	text-decoration: none;
+}
+h1,h3,h4:hover{
+	color: white;
+	text-decoration: none;
+}
+.carousel-indicators{
+	position: relative;
+	bottom: 2220px;
+}
+@media(max-width: 745px){
+	.navbar-form,.carousel-control.right,.carousel-control.left {
+		display: none;
+	}
+	.navbar-default .navbar-brand{
+		position: static;
+	}
+	.features2{
+		position: relative;
+		bottom: 10px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		top:20px;
+		text-align: none;
+		z-index: 1;
+	}
+
+}
+.form-control3{
+	position: relative;
+	top: 32px;
+	right: 316px;
+}
+.form-control4{
+	position: relative;
+	top:38px;
+}
+
