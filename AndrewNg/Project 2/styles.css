@@ -128,3 +128,9 @@ h1,h3,h4:hover{
 	top:38px;
 }
 
+.iphone-case{
+	background-image:url(https://www.apple.com/ca/iphone-5s/home/images/cases_hero_mba_11.png);
+	height: 600px;
+	background-color: #fff;
+}
+
