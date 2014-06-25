@@ -21,6 +21,11 @@ section {
 }
 
 
+.carousel-inner {
+	max-width: 700px !important;
+}
+
+
 /* 
 
 Large desktop 
