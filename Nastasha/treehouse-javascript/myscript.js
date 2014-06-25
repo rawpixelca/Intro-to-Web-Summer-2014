@@ -28,8 +28,23 @@ console.log("After"); */
 
 console.log("Before");
 
-while (true) {
+/*
+var counter = 10;
+
+while (counter) {
 	console.log('Hello World!');
+	console.log('Hi');
+	counter = counter -1;
 }
 
+while (prompt("What is your name?")) {
+	console.log("Got your name")
+}  */
+
+for (var counter=10;counter; counter = counter-1) {
+console.log("Hello World", counter);
+}
+
+
 console.log("After");
+
