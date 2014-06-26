@@ -1,0 +1,16 @@
+.photo{
+	display: block;
+}
+.photo img{
+	max-width: 100%;
+	max-height: 100%;
+}
+body{
+	background-color: #DF0101;
+	padding-top: 10px;
+}
+h1{
+	text-decoration: underline;
+	text-align: center;
+	padding-bottom: 20px;
+}
