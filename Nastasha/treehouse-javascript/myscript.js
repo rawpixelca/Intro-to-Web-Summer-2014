@@ -26,9 +26,11 @@ if (name) {
 
 console.log("After"); */
 
-console.log("Before");
 
 /*
+
+console.log("Before");
+
 var counter = 10;
 
 while (counter) {
@@ -39,12 +41,22 @@ while (counter) {
 
 while (prompt("What is your name?")) {
 	console.log("Got your name")
-}  */
+}  
 
 for (var counter=10;counter; counter = counter-1) {
 console.log("Hello World", counter);
 }
 
+console.log("After"); 
+*/
 
-console.log("After");
+var friends = ["Nick", "Michael", "Amit", "Alison", "John", "Rich"];
+console.log(friends);
+console.log(friends.length);
 
+var friendNumber = 1;
+console.log(friends[friendNumber]);
+
+for(var i=0; i < friends.length; i+=1) {
+	console.log(friends[i]);
+}
