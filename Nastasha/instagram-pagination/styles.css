@@ -1,0 +1,49 @@
+
+body, select, input, textarea, {
+	font-family: 'Ropa Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #333;
+}
+
+h2 {
+	font-family: 'Ropa Sans';
+	color: #000;
+	text-align: center;
+}
+
+p {
+	padding-top: 5px;
+	margin: 5px;
+	background-color: #fff;
+	color: #4EB1C8;
+	font-family: 'Ropa Sans';
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.photo {
+	display: block;
+	padding: 10px;
+}
+
+
+.photo img {
+	max-width: 100%;
+	border: 1px;
+	border-color: #556270;
+}
+
+.profile-pic {
+	position: absolute;
+	height: 50px;
+	top: 200px;
+	z-index: 2;
+	left: 0;
+	border-radius: 50%;
+}
+
+.instagram-caption {
+	margin-top: 15px;
+}
