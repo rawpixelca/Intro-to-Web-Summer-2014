@@ -50,16 +50,21 @@ body {
  .socials {
  	background-color: gray;
  	padding-top: 10px;
+     height: 80px;
  }
 
  .socials li {
  	list-style-type: none;
      display: inline;
      padding: 10px;
+     display: inline-block;
+     height: 100%;
+     vertical-align: middle;
  }
 
  .socials {
      text-align: center;
+     line-height: 4px
  }
 
  .features-title {
@@ -74,4 +79,25 @@ body {
 
  .features {
      background-color: #f6f6f6;
+     display: inline;
  }
+
+ .features-feature {
+     text-transform: uppercase;
+ }
+
+ .features img {
+     display:inline;
+ }
+
+ .features-feature {
+     display:inline;
+ }
+
+ .features p {
+     font-size: 14px;
+ }
+
+ img {
+     width: 100%;
+}
