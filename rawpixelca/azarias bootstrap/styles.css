@@ -1,0 +1,89 @@
+/*Azaria's*/
+
+body{
+	background-image: url(http://i.imgur.com/JUDQNgc.jpg);
+	background-color:black;
+	color:white;
+
+}
+
+.logo {
+	position: absolute;
+	width: 800px;
+	height: 300px;
+	left: 18%;
+	top: 3%;
+}
+.example {
+	position: absolute;
+	width: 300px;
+	margin-top: 140px;
+	margin-left: 500px;
+}
+
+.example p{
+	font-family: sans-serif;
+	font-size: 22px;
+}
+.reviews {
+ 	color:white;
+ 	padding: 59px;
+	padding-left: 60px;
+	width:350px;
+	float:left;
+
+}
+
+.reviews img{
+		
+		max-width: 300px;
+		vertical-align: middle;
+		width:auto;
+	}
+
+.content {
+	background-image: url(images/bg_home.gif);
+	background-repeat: no-repeat;
+	
+}
+
+.nav li {
+	display:inline;
+	list-style: none;
+	text-align: center;
+	color: white;
+	padding: 21px;
+	font-size: 30px;
+	font-family: monospace;
+
+}
+
+a{
+	text-decoration: none;
+	color:#FFF;
+}
+
+.menu1 {
+	margin-left: 35px;
+	position: absolute;
+	margin-top: 45px;
+}
+
+.food li {
+	
+	list-style: none;
+}
+
+
+.menutitle {
+	list-style: none;
+	border-bottom: 1px solid red;
+	font-size: 35px;
+
+}
+
+.menu2 {
+	margin-left: 35px;
+	position: absolute;
+	margin-top: 200px;
+}

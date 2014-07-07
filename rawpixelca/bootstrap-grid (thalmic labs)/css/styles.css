@@ -1,3 +1,16 @@
+.navbar-default{
+	background-color: #fff;
+	box-shadow: 0px 0px 16px 0px rgba(50, 50, 50, 0.3);
+}
+
+.navbar ul li {
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #43c3d9;
+}
+
 .science {
 	background-image:url(https://thceruleanp.s3.amazonaws.com/static/img/arm_with_signal.jpg);
 	height:400px;
