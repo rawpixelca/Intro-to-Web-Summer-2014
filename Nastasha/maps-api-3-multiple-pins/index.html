@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Multiple Pins in Google Maps</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<!-- <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.css"> -->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC2X4Y95mFAMFJGH93Xm9tkzPTyporlKo"></script>
+		<script type="text/javascript">
+			// to make maps appear
+
+				$(document).ready(function() {
+					map = new google.maps.Map(document.getElementById("map-canvas"), {
+						zoom: 16
+					});
+
+					google.maps.event.addListener(map, 'click', function(event) {
+						searchPhotos(event.latLng);
+					});
+
+					navigator.geolocation.getCurrentPosition(function(position) {
+						searchPhotos(new google.maps.LatLng(position.coords.latitude, position.coords.longitude));
+					});
+
+				});
+
+				function searchPhotos(location) {
+					// instagram integration happens here
+					var client_id = "c43633bead8a48fcbe328c7c67d06a7b",
+						openInfoWindow;
+
+					$.ajax({
+						type: "GET",
+						dataType: "jsonp",
+						cache: false,
+						url: "https://api.instagram.com/v1/media/search?distance=100&lat=" + location.lat() + "&lng=" + location.lng() + "&client_id=" + client_id,
+						success: function(photos) {
+							// console.log(photos.meta);
+							photos.data.forEach(function(photo) {
+								var photoLocation = new google.maps.LatLng(photo.location.latitude, photo.location.longitude)
+								var photoMarker = new google.maps.Marker({
+									position: photoLocation,
+									map: map
+								});
+								var infowindow = new google.maps.InfoWindow ({
+									content: "<img src='" + photo.images.low_resolution.url + "' />"
+								});
+								google.maps.event.addListener(photoMarker, 'click', function() {
+									if(openInfoWindow) {
+										openInfoWindow.close();
+									}
+									openInfoWindow = infowindow;
+									infowindow.open(map, photoMarker);
+								});
+							});
+						}
+					});//ajax
+
+					map.setCenter(location);
+				};
+
+		</script>
+		<style type="text/css">
+			body, html {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			#map-canvas {
+				height: 100%;
+			}
+		</style>
+</head>
+<body>
+	<div id="map-canvas">
+
+	</div>
+</body>
+</html>
