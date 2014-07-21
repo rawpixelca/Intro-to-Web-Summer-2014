@@ -1,0 +1,35 @@
+@import "design";
+
+.landing {
+	background-image: url("../img/background.jpg");
+// .. means we are going out of our css folder
+	height: 670px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	// we can nest similar to html's format/ we don't have to repeat landing just to refer to a nested tag
+	img {
+		margin: 0 auto;
+	}
+
+	h1 {
+		color: $font-color;
+		text-align: center;
+		font-family: $landing-font
+	}
+
+	.landing-text {
+		font-size: 20px;
+		color: $font-color;
+	}
+	p {
+		text-align: center;
+		color: $font-color;
+	}
+
+}
+
+// we can extend formats so we don't repeat code
+// .landing2 {
+// 	@extend .landing;
+// }
