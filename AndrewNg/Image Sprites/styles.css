@@ -1,0 +1,36 @@
+.sprite-container{
+	background-image: url(http://i.imgur.com/kKnfUyt.png);
+	height: 65px;
+	width: 75px;
+	margin: 10px;
+	display: inline-block;
+	background-position: 
+}
+.sprite-container.facebook:hover,
+.sprite-container.youtube:hover,
+.sprite-container.twitter:hover,
+.sprite-container.rss:hover{
+	background-position-y: 65px;
+	cursor: pointer;
+}
+
+.sprite-container.facebook{
+	background-position: -70px 2px;
+}
+
+
+.sprite-container.youtube{
+	background-position: -150px 2px;
+}
+
+.sprite-container.twitter{
+	background-position: 0px 2px;
+}
+
+.sprite-container.rss{
+	background-position: -215px 2px;
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+}

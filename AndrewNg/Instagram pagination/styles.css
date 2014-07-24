@@ -1,10 +1,14 @@
 .photo{
 	display: block;
+	height: 263px;
 }
 .photo img{
 	max-width: 100%;
 	max-height: 100%;
+	border: outset #4000FF;
 }
+
+
 body{
 	background-color: #DF0101;
 	padding-top: 10px;
@@ -23,3 +27,10 @@ h1{
 .glyphicon-thumbs-down{
 	position: relative;
 }*/
+.profile-pic{
+	position: relative;
+	height: 150px;
+	width: 140px;
+	bottom: 150px;
+	display: none;
+}

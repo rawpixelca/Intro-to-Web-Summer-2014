@@ -71,8 +71,6 @@ a{
 	color: white;
 	border: solid #0000FF;
 	background-color: #0000FF;
-	border-radius: 100px;
-
 
 }
 .navbar{
@@ -121,6 +119,13 @@ a{
 }
 .copyright{
 	bottom:0px;
+}
+.pizza2{
+	margin: 0 auto;
+	display: block;
+	border: solid black;
+	width: 550px;
+	height: 367px;
 }
 
 

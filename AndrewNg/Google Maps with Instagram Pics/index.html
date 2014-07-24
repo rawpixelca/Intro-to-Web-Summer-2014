@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title></title>
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZTNZnUpiUtBfy-PUpc38QYN83NGGNrvo"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+		map = new google.maps.Map(document.getElementById("map-canvas"),
+		{
+			zoom: 16
+		});
+
+		google.maps.event.addListener(map, 'click', function(event){
+			searchPhotos(event.latLng);
+		});
+
+		navigator.geolocation.getCurrentPosition(function(position){
+			searchPhotos(new google.maps.LatLng(position.coords.latitude, position.coords.longitude));
+		});
+	});
+	function searchPhotos(location){
+		var client_id = "d73fd06d0eb840b6ae6d2b983007a1b9",
+		openInfowindow;
+
+		$.ajax({
+
+			type: "GET",
+			dataType: "jsonp",
+			cache: false,
+			url: "https://api.instagram.com/v1/media/search?distance=100&lat=" + location.lat() + "&lng=" + location.lng() + "&client_id=" + client_id,
+			success: function(photos){
+				photos.data.forEach(function(photo){
+					var photoLocation = new google.maps.LatLng(photo.location.latitude,photo.location.longitude);
+					var photoMarker = new google.maps.Marker({
+						position: photoLocation,
+						map: map
+					});
+					var InfoWindow = new google.maps.InfoWindow({
+						content: "<img src= '" + photo.images.low_resolution.url +   "'/>"
+					});
+					google.maps.event.addListener(photoMarker, 'click', function()	{
+						if(openInfowindow){
+							openInfowindow.close();
+						}
+						openInfowindow = InfoWindow;
+						InfoWindow.open(map,photoMarker);
+					});
+				});
+
+			}
+		});
+		// instagram stuff =)
+		map.setCenter(location);
+	}	
+	
+	</script>
+	<style type="text/css">
+		body,html{height:100%;margin:0;padding:0;}
+		#map-canvas{height:100%;}
+	</style>
+</head>
+<body>
+	<div id='map-canvas'></div>
+<body>
+</html>
