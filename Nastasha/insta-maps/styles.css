@@ -5,7 +5,30 @@
  	
  }
 
- p {
- 	background-color: lightblue;
+.insta-info {
+	height: 100%;
+	width: 100%;
+}
+
+.insta-username {
+	color: tomato;
+	font-weight: bold;
+}
+
+.insta-caption {
+ 	color: darkblue;
+ 	word-wrap: break-word;
  }
 
+.insta-profile {
+	position: absolute;
+	height: 50px;
+	top: 400px;
+	z-index: 2;
+	left: 0;
+	border-radius: 50%;
+}
+
+.insta-image {
+	max-width: 100%;
+}

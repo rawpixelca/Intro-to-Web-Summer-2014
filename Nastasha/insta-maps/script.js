@@ -38,16 +38,19 @@ $(document).ready(function() {
 						map: myMap,
 					});
 
-					var photoWindowContent = '';
-						photoWindowContent += '<img src="' + photo.images.low_resolution.url + '">';
-						if (photo.caption.text) {
-							photoWindowContent += '<p>' + photo.caption.text + '</p>';
-						}
+					
+					var photoWindowContent = '<div class="insta-info"></div>';
+						photoWindowContent += '<img class="insta-image" src="' + photo.images.low_resolution.url + '">';
+						photoWindowContent += '<p class="insta-username">' + photo.user.username + '</p>';
+						photoWindowContent += '<img class="insta-profile" src="' + photo.user.profile_picture + '">';
+						photoWindowContent += '<p class="insta-caption">' + photo.caption.text + '</p>';
+						
+					// $photoWindow.height($photoWindowContent.height());
 
 					var photoWindow = new google.maps.InfoWindow({
-						content: photoWindowContent,
-					});
-
+											content: photoWindowContent,
+										});
+	
 					google.maps.event.addListener(photoMarker, 'click', function(event) {
 						console.log(event);
 						if (openPhotoWindow) {
@@ -55,10 +58,10 @@ $(document).ready(function() {
 						}
 
 						photoWindow.open(myMap, photoMarker);
-						myMap.setCenter(event.latLng);
+						myMap.setCenter(marker.getPosition());
 						openPhotoWindow = photoWindow;
-					});
 
+					});
 				});
 			},
 		});
