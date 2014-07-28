@@ -1,0 +1,23 @@
+@import "design";
+
+
+.interface {
+
+	h1, p {
+		text-align: $text-align;
+		font-family: $landing-font;
+	}
+
+	p {
+		line-height: $line-height;
+		font-size: $p-font-size;
+	}
+
+	.gray {
+		color: gray;
+	}
+
+	.blue {
+		color: blue;
+	}
+}

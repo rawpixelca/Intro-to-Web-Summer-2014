@@ -1,0 +1,41 @@
+body {
+	font-family: Helvetica;
+}
+
+.header {
+	background-color: #5C4B51;
+}
+
+.container {
+
+}
+
+.experience {
+	background-color: #8CBEB2;
+}
+
+.about {
+	background-color: #F2EBBF;
+}
+
+.blog {
+	background-color: #F3B562;
+}
+
+.footer {
+	background-color: #F06060;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1 {
+	text-align: center;
+	font-family: Helvetica;
+	color: white;
+}
+
+p, h2 {
+	padding: 10px;
+}
