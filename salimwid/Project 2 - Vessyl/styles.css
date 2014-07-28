@@ -1,0 +1,66 @@
+.navbar ul li {
+	text-transform: uppercase;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 450;
+	font-size: 15px;
+}
+
+.navbar-default {
+	background-color: #12110f;
+	opacity:0.9;
+	border-color: black;
+}
+.navbar-default .navbar-nav > li > a {
+	margin:16px 40px;
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	border-bottom: 1px white solid;
+	color: white;
+}
+
+.navbar-toggle {
+	background-color: black;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: black;
+}
+
+.navbar-default .navbar-nav > li > a.btn {
+	background: #146ee1 !important;
+}
+
+.btn-info {
+	border-color: #146ee1;
+}
+
+.btn-info:hover{
+	border-color: #146ee1;
+}
+
+.navbar-default .navbar-nav > li > a#btn-customized:hover {
+	border-bottom: 1px #146ee1 solid;
+	color: white;
+}
+
+.landing-video-container {
+	background-image: url(https://d1n2kdlaaxc7oe.cloudfront.net/production/assets/index/hero-efb860b04ee49b4a339cb208f8bc00b9.jpg);
+	height: 1100px;
+	background-size: cover;
+	background-position: center -45px;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.vessyl-logo img{
+	position: relative;
+	right: 10px;
+}
+
+.btn {
+	border-radius: 0px;
+}
+
