@@ -1,0 +1,30 @@
+@import "design";
+
+.landing{
+	background-image:url("../images/jpeg.jpg");
+	height: 800px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	img{
+		margin: 0 auto;
+		display: block;
+	}
+	h1{
+		color: $font-color;
+		text-align: center;
+		font-family: $landing-font;
+		font-size: 40px;
+	}
+	p {
+		color: $font-color;
+		text-align: center;
+		font-family: $landing-font;
+		font-size: 1.5em;
+	}
+	h2{
+		color: $font-color;
+		text-align: center;
+		font-family: $landing-font;
+	}
+}
+

@@ -1,0 +1,36 @@
+@import "design";
+
+.redesign {
+	img{
+		margin: 0 auto;
+		display: block;
+		position: relative;
+		top: 210px;
+	}
+	h1 {
+		font-family: $landing-font;
+		color: black;
+		position: relative;
+		bottom: 720px;
+		text-align: center;
+	}
+	h2 {
+		font-family: $landing-font;
+		color: #999;
+		position: relative;
+		bottom: 720px;
+		text-align: center;
+	}
+	p{
+		font-family: $landing-font;
+		color: black;
+		position: relative;
+		bottom: 720px;
+		text-align: center;
+		font-size: 18px;
+	}
+	a:hover{
+		text-decoration: underline;
+		color: #0088cc;
+	}
+}

@@ -48,11 +48,7 @@ a{
 	font-size: 20px;
 	text-decoration: underline;
 
-
 }
-
-
-
 .cp{
 	text-transform: uppercase;
 	text-align: center;
@@ -67,18 +63,14 @@ a{
 	left: 10px;
 }
 .logo{
-	height:85px;
-	width: 120px;
-	position: absolute;
-	top: 52px;
-	right: 10px;
+	height:15px;
+	width: 20px;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
 	color: white;
-	border: solid #43c3d9;
-	background-color: #43c3d9;
-	border-radius: 100px;
+	border: solid #0000FF;
+	background-color: #0000FF;
 
 }
 .navbar{
@@ -115,18 +107,6 @@ a{
 		bottom: 50px;
 
 	}
-	.tickets{
-		margin: 0 auto;
-		display: block;
-		position: relative;
-	}
-	.tickets2{
-		margin: 0 auto;
-		display: block;
-		height: 0px;
-		width: 0px;
-		position: relative;
-	}
 	.pizza{
 		margin: 0 auto;
 		display: block;
@@ -139,6 +119,13 @@ a{
 }
 .copyright{
 	bottom:0px;
+}
+.pizza2{
+	margin: 0 auto;
+	display: block;
+	border: solid black;
+	width: 550px;
+	height: 367px;
 }
 
 
