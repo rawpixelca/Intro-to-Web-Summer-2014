@@ -13,7 +13,7 @@
 .sprite-container.rss:hover {
 	background-position-y: 65px;
 	cursor: pointer;
-}
+} 
 
 .sprite-container.twitter {
 	background-position: 0px 3px;
