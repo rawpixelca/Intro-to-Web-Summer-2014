@@ -1,0 +1,41 @@
+.pill-nav ul {
+	margin-top: 5px;
+}
+
+.logo{
+	font-size: 26px;
+	color: white;
+	opacity: 50%;
+}
+
+.navheader{
+	background-color: white;
+}
+
+.coverpic{
+	background-image:url(http://lifepleasure.files.wordpress.com/2012/09/mezbaan-restaurant-wide-view1.jpg);
+	height:400px;
+}
+
+.coverpic h2, p{
+	color: white;
+}
+
+.about{
+	background-image: url(http://4.bp.blogspot.com/-gVG3ajNTOuc/UVyjchz-asI/AAAAAAAABPQ/v5l84x9MfMc/s1600/bluemug-patio.jpg);
+	background-size: cover;
+}
+.menu_item{
+	font-weight: bold;
+}
+.menu_desc{
+	font-style: italic;
+}
+
+.about h2{
+	color: white;
+}
+
+.contact p{
+	color:black;
+}

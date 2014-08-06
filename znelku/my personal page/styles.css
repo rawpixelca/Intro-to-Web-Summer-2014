@@ -1,0 +1,18 @@
+		html {
+			font-family: sans-serif;
+		}
+
+		h1 img {
+			border: 5px solid transparent;
+			border-radius: 100%;
+			vertical-align: middle;
+			width: 100px;
+		}
+
+		h1 {
+			color:blue;
+		}
+
+		.red {
+			color:red;
+		}

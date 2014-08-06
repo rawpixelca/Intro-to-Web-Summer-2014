@@ -12,22 +12,14 @@ img {
 	margin-left: 200px;
 	float: left;
 	padding: 5px;
+	position: absolute;
 }
 p {
 	line-height: 1.5em;
 	font-family: sans-serif;
 	float: right;
 	width: 400px;
-	height: 500px;
 	margin-right: 200px;
-}
-div p {
-	line-height: 1.5em;
-	font-family: sans-serif;
-	float: right;
-	width: 400px;
-	height: 500px;
-	margin-right: 100px;
 }
  .prev {
 	display: inline-block;
@@ -42,6 +34,7 @@ div p {
 	text-align: center;
 	color: black;
 	font-family: Verdana;
+	position: relative;
 }
  .next {
 	display: inline-block;
@@ -56,6 +49,7 @@ div p {
 	text-align: center;
 	color: black;
 	font-family: Verdana;
+	position: relative;
 }
 .home {
 	display: inline-block;
@@ -70,6 +64,7 @@ div p {
 	text-align: center;
 	color: black;
 	font-family: Verdana;
+	position: relative;
 }
 
 h1 {
@@ -77,22 +72,24 @@ h1 {
 	font-family: 'UnifrakturMaguntia', cursive;
 	padding-top: 40px;
 	font-size: 3em;
+}
 
-}
-li {
-	font-family: 'Caesar Dressing', cursive;
-	font-size: 1.3em;
-	line-height: 1.7em;
-	margin-left: 100px;
-}
+
 .links {
-	display: inline-block;
-	width: 400px;
-	float: left;
-}
-.info {
-	display: inline-block;
+	display: block;
+	font-family: 'Caesar Dressing', cursive;
+	font-size: .85em;
+	line-height: 1.7em;
+	position: fixed;
+	background-color: #AFE7FF;
 	width: 500px;
-	float: left;
-	margin-left: 150px;
+	padding: 10px;
+	border-radius: 20%;
+	text-align: center;
+}
+.info p {
+	display: block;
+	position: relative;
+	margin-top: 20px;
+	margin-left: 100px;
 }

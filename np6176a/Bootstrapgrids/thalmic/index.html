@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Thamlic Labs</title>
+		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<!-- personal styles need to be referenced after bootstrap or it will not overide bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+		<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+				<!-- Button trigger modal -->
+		<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+		  Launch demo modal
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="landing-video">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-offset-3 col-md-6">
+						<iframe width="100%" height="480" src="http://www.youtube.com/embed/oWu9TFJjHaM" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<img class="img-responsive" src="https://d2eh370wmsub0x.cloudfront.net/static/img/featured_in.jpg">
+
+						<!-- the class="img-responsive" made the img change width based on size of the screen -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="science">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6">
+						<h2>Revolutionary Science</h2>
+						<p><span class="sub">Your muscles talk, the Myo armband listens.</span>
+						<br>
+						The Myo armband lets you use the electrical activity in your muscles to wirelessly control your computer, phone, and other favorite digital technologies.
+
+						With the wave of your hand, it will transform how you interact with your digital world.</p>
+
+						<!-- this is the button. to make custom changes add another class. percentage widths will refer to the percent of the col this button is in. -->
+						<a class="btn btn-info test" href="https://www.thalmic.com/en/myo/">Testing</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="collapse-example">
+			<div class="panel-group" id="accordion">
+  				<div class="panel panel-default">
+    				<div class="panel-heading">
+    					<h4 class="panel-title">
+        					<a data-toggle="collapse" data-parent="#accordion" href="#pre-order">
+					        	Pre-Order Now
+					        </a>
+					    </h4>
+    				</div>
+
+    				<div id="pre-order" class="panel-collapse collapse">
+    					<div class="panel-body">
+	    					<p>Pre-order the Thalmic Labs arm band today!</p>
+	    				</div>
+    				</div>	
+    			</div>
+    		</div>
+		</div>
+	</body>
+</html>

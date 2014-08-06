@@ -1,0 +1,124 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.header {
+	border-bottom: 3px solid black;
+	position: relative;
+	background: url(http://fblog.futurebrand.com/wp-content/uploads/2014/02/snowboard-pin-sport-hd-free-on-pinterest-357096.jpg);
+	background-size: cover;
+	height: 350px;
+	margin: 0 0 15px 0;
+	padding: 0 0 0 0;
+}
+
+h1 {
+	position: relative;
+	top: 45%;
+	text-align: center;
+	margin-top: 0;
+	font-size: 6em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav {
+	float: left;
+	width: 15%;
+	padding: 0 0 0 15px;
+}
+
+.main {
+	float: right;
+	width: 75%;
+}
+
+.map {
+	position: relative;
+}
+
+img.map {
+	width: 800px;
+}
+
+.map li {
+	position: absolute;
+	color: white;
+	background: black;
+}
+
+li.whistler {
+	top: 482px;
+	left: 433px;
+}
+
+li.bigwhite {
+	top: 523px;
+	left: 645px;
+}
+
+li.sunpeaks {
+	top: 448px;
+	left: 571px;
+}
+
+a.navlinks {
+	text-decoration: none;
+	padding: 5px 0;
+	color:black;
+}
+
+li.navlist {
+	border: 3px solid black;
+	margin: 5px;
+	padding: 6px;
+	color:black;
+}
+
+.map a:link {
+	color:white;
+}
+
+.map a:visited {
+	color:white;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+img.smallpic {
+	width: 200px;
+}
+
+.inline.left {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+.inline.right {
+	float: right;
+	margin: 0 0 0 15px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

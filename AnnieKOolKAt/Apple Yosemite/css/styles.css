@@ -1,0 +1,30 @@
+.landing {
+  background-image: url("../images/overview_hero_bg.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .landing img {
+    margin: 0 auto; }
+  .landing h1 {
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif; }
+  .landing .landing-text {
+    font-size: 26px; }
+  .landing p {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif; }
+
+.page-two h1 {
+  text-align: center;
+  font-color: "Roboto", sans-serif; }
+.page-two .gray {
+  font-color: #A3A3C2;
+  font-size: 26px; }
+.page-two p {
+  text-align: center;
+  font-family: "Roboto", sans-serif; }
+.page-two img {
+  margin: 0;
+  padding: 0; }

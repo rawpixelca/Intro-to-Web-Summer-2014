@@ -1,0 +1,41 @@
+.box {
+	background-color: #F0F;
+	height: 50px;
+	width: 50px;
+	border: 10px dotted black;
+	border-radius: 100%;
+	padding: 20px;
+	margin: 50px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+}
+
+.ancestor {
+	position: relative;
+	background: url(http://www.documentingreality.com/forum/attachments/f242/279612d1307729976-carl-warner-food-art-amazing-carlwarner.jpg3.gif);
+	background-size: cover;
+	height: 400px;
+}
+
+span {
+	background-color: red;
+}
+.nav {
+	position: fixed;
+}
+.nav a,
+.button {
+	background-color: green;
+	line-height: 50px;
+	display: inline-block;
+}
+.blue {
+	background-color: blue;
+}
+
+.container {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}

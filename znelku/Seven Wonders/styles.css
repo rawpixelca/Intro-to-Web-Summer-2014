@@ -1,0 +1,14 @@
+body {
+	background-color: #EEE;
+}
+
+img {
+	background: #AAA;
+	border: 1px solid gray;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	max-width: 200px;
+	padding: 5px;
+
+}

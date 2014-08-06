@@ -1,0 +1,36 @@
+body{
+	background-color: #B40404;
+}
+
+img{
+	width: 100%;
+}
+.photo {
+	margin: 10px;
+}
+
+
+@media(min-width:768px) {
+	img{
+		max-height: 280px;
+		max-width: 280px;
+		vertical-align: middle;
+		width:auto;
+	}
+	.photo{
+		float: left;
+		background: #333;
+		text-align: center;
+		line-height: 280px;
+		width: 280px;
+		height: 280px;
+	}
+	.container{
+		margin:0 auto;
+		width: :900px;
+	}
+	@media(min-width:768px) and (max-width: 900px){
+	.container{
+		width: 600px;
+	}
+}

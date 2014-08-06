@@ -1,0 +1,302 @@
+@font-face {
+	font-family: "AlexBrush-Regular";
+	src: url(AlexBrush-Regular.ttf) ;
+}
+
+@font-face {
+	font-family: "Argh";
+	src: url(Aaargh.ttf);
+}
+
+@font-face {
+	font-family: "Quicksand-Light";
+	src: url(Quicksand-Light.ttf);
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+	cursor: auto;
+	color: black;
+}
+body {
+	background-image: url(cementbackground.jpg) ;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li {
+	list-style-type: none;
+	text-align: center;
+	font-family: "Argh";
+	font-size: 15px;
+	line-height: 1.7em;
+}
+
+.about {
+	height: 140px;
+	background-color: white;
+}
+
+.menus {
+	height: 116px;
+	margin-top: 15px;
+	background-color: white;
+}
+
+.rsvp {
+	height: 116px;
+	margin-top: 15px;
+	background-color: white;
+}
+
+.venue {
+	height: 116px;
+	margin-top: 15px;
+	background-color: white;
+}
+
+.login {
+	height: 90px;
+	margin-top: 15px;
+	background-color: white;
+}
+
+.social-media {
+	height: 62px;
+	margin-top: 15px;
+	background-color: white;
+}
+
+.twitter {
+	position: relative;
+	width: 50px;
+	float: left;
+	left: 10px;
+}
+
+.facebook {
+	position: relative;
+	float: right;
+	right: 8px;
+	width: 20px;
+	height: 20px;
+}
+
+.header1 {
+	line-height: 2.2em;
+	text-decoration: underline;
+	color: #ff3300;
+}
+
+a.headerhome1:-webkit-any-link {
+	line-height: 2.2em;
+	color: #ff3300;
+}
+
+.title {
+	background-color: #663300;
+	border: 10px;
+	height: 200px;
+	width: 692px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	font-family: monospace;
+	font-size: 80px;
+	position: relative;
+	padding-top: 28px;
+	border-style: solid;
+	border-color: black;
+	border-right: 2px;
+	border-left: 2px;
+}
+
+.main {
+	width: 692px;
+	height: 950px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.insite {
+	float: left;
+	width: 145px;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mid-container {
+	float: left;
+	height: 1240px;
+	width: 512px;
+	background-color: white;
+	margin-top: 15px;
+	padding: 10px;
+}
+
+.mid-container-contact {
+	float: left;
+	height: 580px;
+	width: 512px;
+	background-color: white;
+	margin-top: 15px;
+	padding: 10px;
+}
+
+.mid-info-contact {
+	position: relative;
+	top: -17px;
+}
+
+p.content-font {
+	font-size: 16px;
+	font-family: "Argh";
+}
+
+.righty {
+	float: right;
+	height: 480px;
+	width: 252px;
+	background-color: white;
+	margin-top:17px;
+}
+
+.lefty {
+	float: left;
+	height: 480px;
+	width: 252px;
+	background-color: white;
+	margin-top: 17px;
+}
+
+.imgcontainerleft {
+	width: 235px;
+	height: 230px;
+	padding: 3px;
+	margin-bottom: 5px;
+	background-color: black;
+	margin-left: 13px;
+}
+
+.imgcontainer {
+	width: 235px;
+	height: 230px;
+	padding: 3px;
+	margin-bottom: 5px;
+	margin-right: 13px;
+	background-color: black;
+}
+
+.mid-container img{
+	position: relative;
+	width: 235px;
+	height: 230px;;
+}
+
+.mid-container img:hover {
+	width: 235px;
+	height: 230px;
+	opacity: 0.5;
+}
+
+.menu-pic img{
+	width: 500px;
+	height: 150px;
+}
+
+.menu-pic img:hover{
+	width: 500px;
+	height: 150px;
+	opacity: 1;
+}
+
+h2 {
+	position: relative;
+	top: -135px;
+	font-family: AlexBrush-Regular;
+	left: 25%;
+	font-size: 35px;
+	font-style: oblique;
+	display: inline;
+}
+
+.two{
+	left: 18%;
+}
+
+.hours {
+	position: relative;
+	display: inline-block;
+	margin: 7px;
+	left: 7.5px;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	font-family: Argh;
+}
+
+.food-menu-drink {
+	float: left;
+	width: 256px;
+	height: 200px;
+}
+
+.menu-prices {
+	float: right;
+	width: 256px;
+	height: 200px;
+}
+
+.video {
+	position: relative;
+	display: inline-block;
+	top: -40px;
+	left: 7px;
+}
+
+.food-menu-drink li {
+	text-align: left;
+}
+
+.menu-prices li {
+	text-align: right;
+}
+
+.mid-container-menu {
+	float: left;
+	height: 680px;
+	width: 512px;
+	background-color: white;
+	margin-top: 15px;
+	padding: 10px;
+	height: 680px;
+}
+
+.mid-info-about {
+	position: relative;
+	top: -12px;
+}
+
+.mid-container-about {
+	float: left;
+	height: 680px;
+	width: 512px;
+	background-color: white;
+	margin-top: 15px;
+	padding: 10px;
+	height: 1000px;
+}
+
+.video-desc {
+	font-family: Argh;
+}

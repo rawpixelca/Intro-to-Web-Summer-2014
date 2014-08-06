@@ -1,0 +1,22 @@
+.landing {
+  background-image: url("../images/jpeg.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .landing img {
+    margin: 0 auto;
+    display: block; }
+  .landing h1 {
+    color: white;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 40px; }
+  .landing p {
+    color: white;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 20px; }
+  .landing h2 {
+    color: white;
+    text-align: center;
+    font-family: "Lato", sans-serif; }

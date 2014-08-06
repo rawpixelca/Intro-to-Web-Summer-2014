@@ -1,0 +1,89 @@
+body {
+	background-image: url(http://www.bcarchives.gov.bc.ca/exhibits/birdseye/vict.gif)
+	background-repeat: no-repeat;
+	background-color: #efefef;
+	background-position: top center;
+}
+
+.header {
+	background-color: white;
+	height: 200px;
+		}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-header {
+	width: 100%;
+	height: 50px;
+	background-color:#CCCCFF;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.nav-header a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	font-size: 18px;
+}
+
+
+li {
+	background-color: #3399FF;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10%;
+}
+
+img.inline {
+	width: 150px;
+	background: #CCC;
+	padding: 5px;
+	background: 1px solid #333;
+}
+
+.header h1 {
+	line-height: 100px;
+}
+
+.inline.left{
+	float: left;
+	margin: 0 15px 0 0;
+}
+.inline.right {
+	float: right;
+	margin: 0 0 0 15px;
+}
+.nav {
+	float:left;
+	margin: 0 5% 0 0;
+	width: 15%;
+}
+.main {
+	float: right;
+	margin: 0 0 0 5%;
+	width: 75%;
+	padding-top:15px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+

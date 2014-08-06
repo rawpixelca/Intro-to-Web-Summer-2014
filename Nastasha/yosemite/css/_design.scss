@@ -1,0 +1,12 @@
+@font-face {
+	font-family: Pistara;
+	src: url(Pistara.otf);
+	src: local('Pistara'), url('../fonts/Pistara.otf') format('opentype');
+}
+
+$font-color: #fff;
+$landing-font: 'Pistara', sans-serif;
+$text-align: center;
+$font-weight: lighter;
+$line-height: 150%;
+$p-font-size: 1.5em; 

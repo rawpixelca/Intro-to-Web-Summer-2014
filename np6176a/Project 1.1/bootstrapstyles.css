@@ -1,0 +1,14 @@
+.title {
+	.make-row ();
+
+	.logo {
+		z-index: 1;
+		position: fixed;
+		width: 120px;
+		.make-xs-(6);
+	}
+
+	.name {
+		.make-xs-(12);
+	}
+}

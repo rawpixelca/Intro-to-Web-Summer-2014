@@ -1,0 +1,23 @@
+.photo {
+	margin: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+@media(min-width: 768px) and (max-width: 900px) {
+	.photo {
+		width: 280px;
+		height: 280px;
+		float: left;
+		background-color: gray;
+		vertical-align: middle;
+	}
+}
+
+	.container {
+		display: inline-block;
+		margin: 0 auto;
+		width: 600px;
+	}

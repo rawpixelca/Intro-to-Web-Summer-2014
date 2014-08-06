@@ -1,0 +1,17 @@
+html, body, #map-canvas{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana;
+}
+
+#map-canvas {
+	box-sizing: border-box;
+}
+
+li {
+	list-style-type: none;
+}

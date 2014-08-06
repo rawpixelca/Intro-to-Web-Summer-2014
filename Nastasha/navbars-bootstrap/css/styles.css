@@ -1,0 +1,11 @@
+body {
+	background: #FFB740;
+}
+
+body, section {
+	padding-top: 50px;
+}
+
+.glyphicon {
+	width: 150%;
+}

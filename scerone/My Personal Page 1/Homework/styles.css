@@ -1,0 +1,70 @@
+html{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    position: relative;
+}
+.background-image{
+  	width: 1200px;
+  	height: 800px;
+  	position: absolute;
+  	top:0px;
+
+  	-webkit-filter: blur(5px);
+  	-moz-filter: blur(5px);
+  	-o-filter: blur(5px);
+  	-ms-filter: blur(5px);
+  	filter: blur(5px);
+}
+.menu-bar{
+	padding: 0px;
+	background-color: black;
+	z-index: 100;
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	top: -25px;
+	width:1200px;
+	height:70px;
+	padding-top: 30px;
+	border: 2px solid white;
+}
+li{
+	display:inline;
+	padding-right:40px;
+}
+a{
+	color: gray;
+}
+
+
+
+.stefano{
+	border-radius: 10px;
+	position: absolute;
+	top:250px;
+	left:530px;
+}
+
+h1{
+	z-index: 100;
+	position: absolute;
+	top:150px;
+	color: white;
+	left:480px;
+	font-size: 60px;
+}
+h2{
+	z-index: 100;
+	position: absolute;
+	top:450px;
+	color: white;
+	left:200px;
+	right: 110px;
+	text-align: center;
+	background-color: gray;
+	border-radius: 5px;
+	color: 30px;
+}
+
+

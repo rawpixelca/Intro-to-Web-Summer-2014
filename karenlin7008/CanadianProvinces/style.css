@@ -1,0 +1,163 @@
+body{
+	background-image: url("http://upload.wikimedia.org/wikipedia/commons/c/c5/Moraine_Lake_17092005.jpg");
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.5)
+}
+
+img.inline{
+	float: left;
+	width: 150px;
+	background: #CCC;
+	border: 1px solid #333;
+	padding: 5px;
+	width: 150px;
+}
+
+img.inline.left{
+	float: left;
+	margin: 0 15px 0 0;
+	padding: 0px;
+	border: 1px solid black;
+}
+
+img.inline.right{
+	float: right;
+	margin: 0 0 0 15px;
+	padding: 0;
+	border: 1px solid black;
+}
+
+.header{
+	margin: 0px auto 50px auto;
+	padding: 0;
+	height: 200px;
+	background-image: url("http://i.huffpost.com/gen/1335088/thumbs/o-RCMP-facebook.jpg");
+	background-size: cover;
+	background-position: 0 20%;
+
+} 
+
+.left-nav{
+	float: left;	
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	width: 10%;
+	text-align: center;
+}
+
+.main{
+	float: left;
+	margin: 0 0 0 0;
+	width: 70%;
+}
+
+.right-nav{
+	float: right;	
+	padding-left: 2.5%;
+	padding-right: 2.5%;	
+	width: 10%;
+	text-align: center;
+}
+
+li{
+	text-decoration: none;
+}
+
+img.banner{
+	width: 100%;
+	margin: 0 auto 0 auto;
+	padding: 0 0 10px 0;
+	text-align: center;
+	display: block;
+}
+
+h1{
+	line-height: 72px;
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	color: white;
+	font-size: 72px;
+	font-weight: 700;
+	margin: 0 auto;
+}
+
+.header h1 {
+	position: relative;
+	top: 70px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h3{
+	font-family: "PT Sans", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #D90000;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+p, ul{
+	font-family: "PT Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.clearfix { 
+	display: inline-block; 
+}
+/* start commented backslash hack \*/
+
+* html 
+.clearfix { 
+	height: 1%; 
+}
+
+.clearfix { 
+	display: block; 
+}
+/* close commented backslash hack */
+
+a:link{
+	color: red;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a:hover{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:active{
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited{
+	color: black;
+	text-decoration: none;
+	font-weight: normal;
+}

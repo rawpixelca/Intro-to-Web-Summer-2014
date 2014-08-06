@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css">
+		<title>Intro to Twitter Bootstrap</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-default" role="navigation">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html">Twitter Bootstrap</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="grid.html">Grid System</a></li>
+		        <li><a href="buttons.html">Buttons</a></li>
+		        <li><a href="examples.html">Examples</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="container">
+			<h1>Bootstrap's Grid System</h1>
+			<p>Grid systems are used for creating page layouts through a series of rows and columns that house your content. Here's how the Bootstrap grid system works:</p>
+				<ul>
+					<li>Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.</li>
+					<li>Use rows to create horizontal groups of columns.</li>
+					<li>Content should be placed within columns, and only columns may be immediate children of rows.</li>
+					<li>Predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts. Less mixins can also be used for more semantic layouts.</li>
+					<li>Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on .rows.</li>
+					<li>Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three .col-xs-4.</li>
+				</ul>
+		</div>
+		<div class="container">
+			<h1><small>Examples of Utilizing the Grid System</small></h1>
+			<p>This demonstrates using buckets for the 3 images that have a width of 4 columns each.</p>
+			<div class="row">
+			  <div class="col-md-4"><img class="thumbnail photo" src="http://farm1.staticflickr.com/31/63357997_5601c14e16_o.jpg"></div>
+			  <div class="col-md-4"><img class="thumbnail photo" src="http://www.redrockcanyonlv.org/wp-content/uploads/2012/09/red-rock-canyon1.jpg"></div>
+			  <div class="col-md-4"><img class="thumbnail photo" src="http://www.torange.us/photo/16/13/Emerald-1357923446_50.jpg"></div>
+			</div>
+		</div>
+	</body>
+</html>

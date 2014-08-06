@@ -1,0 +1,9 @@
+.hero{
+	background-image:url(../images/tumblr_mg2dcviwaR1ruj0bpo1_1280.jpg);
+	height: 600px;
+	background-size: cover;
+}
+
+.navbar-default{
+	background-color: #000000;
+}

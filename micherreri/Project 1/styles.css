@@ -1,0 +1,144 @@
+body {
+	font-family: Georgia, serif;
+}
+
+h3 {
+	color: gray;
+}
+
+
+.logo {
+	padding: 10px 200px 20px 100px;
+	font-family: Georgia, serif;
+	font-size: 30px;
+	float: left;
+	height:200px;
+	width: 600px;
+}
+
+.info {
+	padding: 80px 200px 20px 200px;
+	width: 1000px;
+}
+
+.info p {
+	float:right;
+}
+
+.header {
+	border-bottom: 1px dotted black;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav {
+	text-align: center;
+	padding: 40px;
+	border-bottom: 1px dotted black;
+	font-weight: bold;
+}
+
+.nav ul {
+	list-style: none;
+}
+
+.nav li {
+	display:inline;
+}
+
+.nav a {
+	padding: 20px;
+	background color: gray;
+	text-decoration: none;
+	color: gray;
+}
+
+.nav a:hover {
+	color: #F0F;
+	font-size: 1.2em;
+}
+
+.menu {
+	text-align: center;
+	display: block;
+}
+
+.category { 
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 10px;
+	}
+
+.sub-category {
+	color: gray;
+	font-size: 1.2em;
+	padding: 10px 0px 10px 0px;
+}
+
+.small {
+	width: 200px;
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+}
+table {
+	margin: 0 auto;
+	table-layout: fixed;
+}
+
+td {
+	word-wrap:break-word;
+}
+
+.menu-item {
+	padding: 2px 10px 2px 10px;
+}
+
+.description {
+	padding: 2px 20px 2px 20px;
+}
+
+.price {
+	padding: 2px 10px 2px 10px;
+}
+
+img {
+	width: 100%;
+}
+
+.photo {
+
+	margin: 10px;
+}
+
+@media(min-width:767px) {
+	img {
+		max-height: 280px;
+		max-width: 280px;
+		vertical-align: middle;
+		width: auto;
+		height: 280px;
+	}
+	.photo {
+		background: #C0C0C0;
+		float: left;
+		height: 280px;
+		line-height: 280px;
+		text-align: center;
+		width: 280px;
+	}
+
+	.container {
+	margin: 0 auto;
+	width: 900px;
+	}
+}
+
+@media(min-width: 768px) and (max-width:900px) {
+	.container {
+	width: 600px;
+		}
+}

@@ -1,0 +1,45 @@
+
+img {
+	width: 100%;
+}
+
+.photo {
+	margin: 10px;
+}
+
+@media(min-width: 768px) {
+	img {
+		max-height: 280px;
+		max-width: 280px;
+		vertical-align: middle;
+		width: auto;
+	}
+	.photo {
+		background: #333;
+		float: left;
+		height: 280px;
+		line-height: 280px;
+		text-align: center;
+		width: 280px;
+	}
+
+	.container {
+		margin: 0 auto;
+		width: 600px;
+	}
+
+}
+
+@media(min-width: 900px) {
+	.container {
+		width: 900px;
+	}
+}
+
+@media(min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+}
+
+

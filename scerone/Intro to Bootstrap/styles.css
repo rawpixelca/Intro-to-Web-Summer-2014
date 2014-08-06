@@ -1,0 +1,8 @@
+.jumbotron{
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/f/f1/San_Gabriel_Mountains_2011.jpg);
+	background-position: 16% 30%;
+	height: 400px;
+}
+.navbar{
+	margin-bottom:0px;
+}

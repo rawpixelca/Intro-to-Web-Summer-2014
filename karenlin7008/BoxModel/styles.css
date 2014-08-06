@@ -1,0 +1,141 @@
+body{
+	background-image: url("http://www.bruskers.com/wp-content/uploads/2013/12/natural-paper-background-texture-hd-5a0b.jpg");
+	background-size: cover;
+	margin: 0 auto;
+	width: 100%;
+	font-family: helvetica, arial, sans-serif;
+}
+
+header{
+	height: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.nav{
+	background-color: rgba(11,76,151,0.75);
+	position: fixed;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 100;
+	width: 100%;
+	padding: 0;
+}
+
+.button{
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	width: 150px;
+	font-size: 0.7em;
+	letter-spacing: 0.1em;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+a:active{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.banner{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.banner_image{
+	max-width:100%; 
+	margin:auto;
+}
+
+.box{
+	position: absolute;
+	display: inline-block;
+	margin: 0 auto;
+ 	background: rgba(255,255,255,0.65);
+ 	width: 300px;
+ 	height: 300px;
+ 	border: 20px solid rgba(11,76,151,0.2);
+ 	border-radius: 100%;
+ 	text-align: center;
+ 	padding: 20px;
+ 	top: 150px;
+ 	font-size: 2em;
+ 	right: 36.78%;
+ 	left: 36.78%;
+}
+
+.hello{
+	margin: 100px auto;
+	color: rgba(11,76,151,0.75);
+	font-family: impact, tahoma, sans-serif;
+	font-size: 1.25em;
+
+}
+
+.container{
+	width: 65%;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.5);
+	padding: 50px 30px 30px 30px;
+}
+
+p{
+	margin: 0;
+}
+
+span{
+	background: rgba(255,255,255,0.75);
+}
+
+span a:link {
+	color: rgb(11,76,151);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+span a:hover{
+	color: #055BBD;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+span a:visited{
+	color: rgb(11,76,151);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+span a:active{
+	color: rgb(11,76,151);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.back {
+	width: 150px;
+	background-color: rgba(11,76,151,0.5);
+	position: static;
+
+}

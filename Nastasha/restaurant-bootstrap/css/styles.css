@@ -1,0 +1,78 @@
+/***** GENERAL *****/
+
+body {
+	background: #FFFFF0;
+  font-family: Helvetica;
+
+}
+
+a, a:hover {
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+}
+
+p {
+	font-family: Helvetica;
+	color: black;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.navbar {
+  background: #FFF;
+  font-size: 1.2em;
+}
+
+.nav {
+  font-family: 'Nunito';
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Crafty Girls', serif;
+  font-size: 4em;
+}
+
+h2, h4 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.img-circle {
+  max-height: 150px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+  body {
+    background: url('../img/food.png');
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    background: url('../img/giftly.png');
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    background: url('../img/pentagon.png');
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body {
+    background: url('../img/sativa.png');
+  }
+}

@@ -1,0 +1,55 @@
+.box{
+	background-color: #DF0101;
+	border:10px dotted black;
+	height: 50px;
+	border-radius: 100%;
+	padding:20px;
+	width:150px;
+	position:absolute;
+	top:5px;
+	right: 0px
+	
+}
+span{
+	background: #DF0101;
+	text-decoration: underline;
+
+}
+a{
+	background: green;
+	line-height: 50px
+	display: inline-block;
+
+}
+.nav a{
+	background: green
+	display:inline-block;
+	line-height: 50px
+
+}
+.container{
+	width:700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.button{
+	background: green;
+	display: inline-block;
+
+}
+.ancestor{
+	background: url(http://venturebeat.files.wordpress.com/2012/05/basketball-on-fire_shutterstock1.jpg?w=558&h=9999&crop=0);
+	background-size: cover;
+	position: relative;
+	height: 600px;
+}
+body.ancestor{
+	position: relative;
+}
+.blue.button{
+	background: blue;
+}
+p {
+	font-family: Arial;
+
+} 

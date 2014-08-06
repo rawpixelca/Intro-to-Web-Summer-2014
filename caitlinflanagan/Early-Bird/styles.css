@@ -1,0 +1,234 @@
+/* applies to all pages */
+body {
+	background-image: url("images/wood.jpg");
+	background-size: cover;
+	font-family: "Lucida Bright", Georgia, serif;
+	margin: 0;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size: 18px;
+}
+
+a, li {
+	text-decoration: none;
+	color: black;
+}
+
+/* header */
+.header {
+	border-bottom: 2px solid black;
+	background: white;
+}
+
+.header li {
+
+	margin: 0 5px 0 5px;
+	vertical-align: middle;
+	list-style-type: none;
+	float: left;
+}
+
+.button {
+	border: 2px solid black;
+	padding: 5px 10px 5px 10px;
+	position: relative;
+	top: 30px;
+}
+
+.header li:nth-child(1) {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header img {
+	margin: 0 0 0 5px;
+	max-height: 75px;
+}
+
+.header ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* homepage */
+.homebody {
+	background: url("images/wood.jpg");
+	height: 560px;
+	background-size: cover;
+	position: relative;
+}
+
+.homebody p {
+	background-color: white;
+	display: inline;
+	font-size: 36px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 40px 20px;
+	position: absolute;
+	top: 35%;
+	left: 40%;
+}
+/* tables */
+tr, td {
+	padding: 5px 5px 0 0;
+}
+/* photos */
+.photo {
+	width:180px;
+	height: 180px;
+	float: left;
+	margin: 10px;
+	overflow: hidden;
+	border: 2px solid white;
+}
+.photo img {
+	vertical-align: middle;	
+	text-align: center;
+	height: 180px;
+}
+
+/* about */
+.about {
+	width:820px;
+	display: block;
+	margin: 0 auto 47px auto;
+}
+
+.about h1 {
+	background: white;
+	padding: 5px 5px;
+	text-align: center;
+}
+
+.about p {
+	background: white;
+	padding: 5px 5px;
+}
+
+/* menu */
+table {
+	background: white;
+	margin: 12px 0 0 15px;
+	padding: 10px;
+}
+
+/* contact */
+.contact {
+	background-color: white;
+	padding: 5px 5px;
+}
+
+.contact.inline.left {
+	margin: 5px 0 0 5px;
+}
+
+/* floats */
+.inline.left {
+	float: left;
+	width: 23%;
+	margin: 0 0 0 5px;
+	vertical-align: middle;
+}
+
+.inline.left h1 {
+	font-size: 18px;
+}
+
+.inline.left p {
+	font-size: 14px;
+}
+
+.inline.right {
+	float: right;
+	width: 70%;
+	vertical-align: middle;
+	margin: 5px 10px 5px 0;
+}
+/* footer */
+.footer {
+	background-color: black;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-top: 2px solid white;
+}
+
+.footer img {
+	padding: 5px 0 0 5px;
+	max-height: 32px;
+}
+/* clearfix */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+@media (max-width: 800px) {
+	.about {
+		width: 600px;
+	}
+
+	.menu {
+		width: 600px;
+	}
+
+}
+
+@media (max-width: 600px) {
+	.about {
+		width: 400px;
+	}
+
+	.menu {
+		width: 400px;
+	}
+
+	.inline.left.column,
+	.inline.right.column {
+		float: none;
+		width: 184px;
+		margin: 0 auto;
+	}
+
+	.column .photo, table {
+		margin: 5px;
+	}
+
+	.header ul {
+		width: 220px;
+		margin: 0 auto;
+		list-style: none;
+	}
+
+	.header li {
+		margin: 5px;
+		display: block;
+		float: none;
+	}
+	
+	.header a {
+		margin: 0 auto;
+		display: block;
+		float: none;
+		text-align: center;
+		top: 0px;
+	}
+
+}

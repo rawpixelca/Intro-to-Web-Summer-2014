@@ -1,0 +1,7 @@
+section, body{
+	padding-top: 50px;
+}
+
+#section-1 ul{
+	list-style-image:url(http://brainstationimg.s3.amazonaws.com/check.png);
+}

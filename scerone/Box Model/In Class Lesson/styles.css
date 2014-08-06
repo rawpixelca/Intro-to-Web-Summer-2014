@@ -1,0 +1,39 @@
+.box{
+	background-color: #f0f;
+	border: 10px dotted black;
+	height: 50px;
+	margin: 50px;
+	padding: 20px;
+	width: 150px;
+	position: absolute;
+	top:5px;
+
+}
+span{
+	background-color:red;
+}
+
+.button {
+	line-height: 50px;
+	background-color: green;
+	display: inline-block;
+}
+
+.blue.button{
+	background-color: blue;
+}
+
+.container{
+	width:700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ancestor{
+	position: static;
+	height: 400px;
+	background-color: black;
+	background: url(http://miriadna.com/desctopwalls/images/max/Ideal-landscape.jpg);
+	background-size: cover;
+	position: relative;
+}

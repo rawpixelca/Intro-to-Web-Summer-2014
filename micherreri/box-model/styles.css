@@ -1,0 +1,56 @@
+.box {
+	height: 50px;
+	width: 150px;
+	padding: 20px;
+	border: 10px dotted white;
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	border-radius: 90%;
+	top: 50%;
+	left: 50%;
+	margin-top: -55px;
+	margin-left: -105px;
+}
+	
+}
+.ancestor {
+	position:relative;
+	background: url(http://fieldguide.is/assets/img/nonretina/cover.jpg);
+	height:100%;
+	width:100%;
+	background-size: cover;
+	background-repeat: repeat-x
+
+}
+
+.nav a,
+.back {
+	background: #ae8426;
+	display: inline-block;
+	line-height: 50px;
+	radius: 20%;
+	text-align: center;
+
+.nav
+	{
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background-color: #ae8426;
+	background-image: url("../img/nonretina/fg_goldpattern.png");
+	font-family: "Arvo";
+	font-size: 14px;
+	font-weight: 400;	
+	color: #c7c0ac;
+
+	}
+
+.nav container {
+	position: relative;
+	width: 1333px;
+	height: 387px;
+	width: 100%;
+}
+.ancestor

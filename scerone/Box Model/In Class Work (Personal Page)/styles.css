@@ -1,0 +1,49 @@
+.button{
+	background-color: gray;
+	border-radius: 5px;
+	margin-left: 50px;
+	font-size: 24px;
+	color:white;
+	border: 1px solid white;
+}
+
+.container{
+	background: url(http://upload.wikimedia.org/wikipedia/commons/1/16/5th_Floor_Lecture_Hall.jpg);
+	padding-bottom: 400px;
+	background-size: cover;
+	background-position: bottom;
+	position: relative;
+}
+
+.container .title {
+	position:absolute;
+	color: white;
+	right: 0;
+	bottom: 0;
+	font-size: 100px;
+	background-color: gray;
+	border-radius: 5px;
+}
+
+.iconwrap a{
+	line-height: 100px;
+}
+
+.iconwrap img {
+	
+}
+.pic{
+	height: 100px;
+	width:100px;
+	padding-top: 5px;
+}
+
+
+.nav{
+	background-color: black;
+	padding-left: 70px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	position: fixed;
+	width: 830px;
+}

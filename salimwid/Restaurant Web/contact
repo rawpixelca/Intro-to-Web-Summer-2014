@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="title">
+			<div class="header"> <img src="HEADER.jpg"> </div>
+		</div>
+
+		<div class="main">
+				<div class="insite">
+					<div class="about">
+						<li class="headerhome"> <strong> GO TO HOME </strong> </li> 
+						<li> <strong> About Gusto101 </strong> </li>
+						<li> <strong> Gift Packages </strong> </li>
+						<li> <strong> Image Gallery </strong> </li>
+						<li> <strong> Contact Us </strong> </li>
+					</div>
+					<div class="menus"> 
+						<li class="header1"> <strong> FOOD & DRINK </strong> </li> 
+						<li> <strong> Food Menu </strong> </li>
+						<li> <strong> Beverages List </strong> </li>
+						<li> <strong> Desserts Menu </strong> </li>
+					</div>
+					<div class="rsvp">
+						<li class="header1"> <strong> RESERVATIONS </strong> </li> 
+						<li> <strong> Reservation FAQ </strong> </li>
+						<li> <strong> Online Booking </strong> </li>
+						<li> <strong> Group Policy </strong> </li>
+					</div>
+					<div class="venue">
+						<li class="header1"> <strong> EVENT VENUE </strong> </li> 
+						<li> <strong> Private Dining </strong> </li>
+						<li> <strong> Event Packages </strong> </li>
+						<li> <strong> Caterings FAQ </strong> </li> 
+					</div>
+					<div class="login"> 
+						<li class="header1"> <strong> ACCOUNT LOGIN </strong> </li> 
+						<li> <strong> Customer Login </strong> </li>
+						<li> <strong> Staff Login </strong> </li>
+					</div>
+					<div class="group">
+					<div class="social-media">
+						<li class="header1"> <strong> Follow us on... </strong> </li>
+						<div class="twitter"> <a href="https://twitter.com/share" class="twitter-share-button" data-via="ThinkShane">Tweet</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						</div>
+						<div class="facebook">
+						<img class="facebook" src="http://marketingland.com/wp-content/ml-loads/2013/05/facebook-logo-new.png"> 
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="mid-container"> 
+					<div class="mid-info">
+							<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:400px;width:512px;"><div id="gmap_canvas" style="height:400px;width:512px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.mapsembed.com/notebooksbilliger/" id="get-map-data">http://www.mapsembed.com/notebooksbilliger/</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(43.64536349999999,-79.40021819999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(43.64536349999999, -79.40021819999998)});infowindow = new google.maps.InfoWindow({content:"<b>Gusto 101</b><br/>101 Portland St.<br/> Toronto" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+					</div>
+
+					<div class= "video"> 
+						<video src= "https://www.youtube.com/watch?v=IgGjUjQRAxw" width="500" height="350" controls> 
+						</video>
+
+						<p class ="video-desc">
+							Gusto101 offers a truly authentic Italian experience in a contemporary yet soulful environment in the heart of Toronto's Yorkville district.
+							<br>
+							<br>
+							While we encompass over 8,000 Sq. Ft. over three different levels and seats 250, the space remains warm and inviting. Come join us for a memorable experience!
+							<br>
+							<br>
+							Much Love, <br>
+							<strong> GUSTO101 TEAM </strong>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+</html>

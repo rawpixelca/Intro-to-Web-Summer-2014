@@ -1,0 +1,60 @@
+.navbar-header a img {
+	max-height: 150px;
+	width: 450px;
+}
+@media (max-width:800px){
+.top{
+		height: 10;
+	}
+}
+@media (min-width:500px){
+.top{
+	height: auto;
+	min-height:189px;
+}
+}
+
+#swish-navigation {
+	padding-top: 40px;
+}
+
+/*Why is < padding-top: 40px the navigation goes to the photo;*/
+
+.photo {
+	height:600px;
+	width:100%;
+}
+
+/*why dooes the photo reach the top of the page, past the nav bar?*/
+
+.social-media {
+	background: white;
+}
+
+/*covers part of the menu*/
+
+.social-media li {
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+}
+
+.social-media li a:hover {
+	color: white;
+}
+
+.category {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.sub-category {
+	text-align: center;
+	font-size:18px;
+}
+
+body, section {
+	padding-top: 180px;
+}
+

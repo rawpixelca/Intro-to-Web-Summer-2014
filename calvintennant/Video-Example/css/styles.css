@@ -1,0 +1,51 @@
+body{
+  margin-top: -50px;
+}
+
+
+.landing{
+	overflow: hidden;
+  height:700px;
+}
+
+.landing .hero-overlay {
+   	position: absolute;
+   	width: 100%;
+   	top:0;
+   	max-width: none;
+   	height: 650px;
+   	background-color:rgba(0,0,0,0.5);
+	}
+.landing img{
+		width:400px;
+		margin:0 auto;
+		padding-top:180px;
+	}
+.landing video {
+  	width:100%;
+  	height:auto;
+
+   	z-index: 0;
+   	margin-top:50px;
+	}
+
+.email {
+	height: 400px;
+	background-color: #000;
+	margin-top: -200px;
+	z-index: 5;
+}	
+
+.parallax-example{
+  margin-top: -20px;
+  background-image: url(http://brainstation-new-img.s3.amazonaws.com/Landing-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.parallax-example h1{
+  text-align: center;
+  color:#fff;
+  padding-top: 300px;
+}

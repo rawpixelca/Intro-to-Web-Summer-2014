@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Pistara;
+  src: url(Pistara.otf);
+  src: local("Pistara"), url("../fonts/Pistara.otf") format("opentype"); }
+.landing, .landing .landing-two {
+  background-image: url("../img/overview_hero_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px; }
+  .landing img, .landing .landing-two img {
+    margin: 0 auto; }
+  .landing h1, .landing .landing-two h1, .landing p, .landing .landing-two p {
+    color: white;
+    text-align: center;
+    font-family: "Pistara", sans-serif; }
+  .landing p, .landing .landing-two p {
+    line-height: 150%;
+    font-size: 1.5em; }
+  .landing span, .landing .landing-two span {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter; }
+
+@font-face {
+  font-family: Pistara;
+  src: url(Pistara.otf);
+  src: local("Pistara"), url("../fonts/Pistara.otf") format("opentype"); }
+.interface h1, .interface p {
+  text-align: center;
+  font-family: "Pistara", sans-serif; }
+.interface p {
+  line-height: 150%;
+  font-size: 1.5em; }
+.interface .gray {
+  color: gray; }
+.interface .blue {
+  color: blue; }

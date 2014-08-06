@@ -1,0 +1,39 @@
+html,body,p{
+    margin:0;
+    padding: 0; 
+}
+p{
+    font-size: 3em;
+}
+.container{
+    background-color: lavender;
+    padding: 10px;
+    width: 550px;
+    margin: 0 auto;
+}
+.nav{
+    background: lightblue;
+    padding: 10px;
+    width: 290px;
+    margin: 0 auto;
+}
+.nav a{
+    color: lightcoral;
+    text-decoration: underline;
+    display: inline-block;
+    padding: 0 20px;
+}
+img{
+    width: 100px;
+    float: left;
+    margin: 10px;
+}
+.pineapple{
+    width: 320px;
+    height: 320px;
+    border: solid 1px #aaa;
+    margin: 0 auto;
+     border-radius: 100%;
+    background: transparent url('http://i.babyfood101.com/m/i/pineapple.jpg') center center no-repeat;
+    box-shadow: 3px 3px;
+}

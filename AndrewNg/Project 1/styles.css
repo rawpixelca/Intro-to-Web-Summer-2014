@@ -1,0 +1,89 @@
+ul li{
+	margin: 0 5% 0 0;
+	width: 50px;
+	padding:15px;
+	border: 2px solid #333;
+	background-color: blue;
+	display: inline;
+}
+
+ul {
+	text-align: center;
+}
+.clippers{
+	width: 300px;
+	height: 200px;
+	padding:3px;
+	border:solid #333;
+	background: #A4A4A4;
+
+}
+.tomatoes{
+	padding:3px;
+	border:solid #333;
+	background: #A4A4A4;
+	margin: auto;
+	width:489px;
+	height:390px;
+
+}
+
+img {
+	
+	height:390px;
+}
+body{
+	background-color: #DF0101;
+
+}
+td, th {
+	border: 1px solid black;
+	padding: .25em 1em;
+	width: 10%;
+	height: auto;
+}
+tr:nth-child(2n){
+	background: #ccc;
+}
+a{
+	color:#29088A;
+}
+.copyright{
+	float:left;
+	position:absolute;
+	text-decoration: underline;
+}
+.wings{
+	height: 200px;
+	width: 300px;
+	padding:3px;
+	border:solid #333;
+	background: #A4A4A4;
+	margin: 0 auto;
+	display: block;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+.pizza{
+	height: 200px;
+	width: 300px;
+}
+p{
+	color:black;
+}
+.description{
+	border: 2px solid #333;
+	width: 300px;
+
+}
+.pizza{
+	width: 350px;
+	height: 260px;
+	padding:3px;
+	border:solid #333;
+	background: #A4A4A4;
+
+}

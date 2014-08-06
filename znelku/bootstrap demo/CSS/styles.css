@@ -1,0 +1,32 @@
+.science {
+	background-image: url(https://thceruleanp.s3.amazonaws.com/static/img/arm_with_signal.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: right; 
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+	.science {
+		background-color: #000;
+		background-image: none;
+	}
+}
+
+.science h2 {
+	text-transform: uppercase;
+}
+
+.sub-heading {
+	color: #43C3d9;
+	font-size: 18px;
+}
+
+.thalmic {
+	background-color: #43C3d9;
+	width: 40%;
+	border-radius: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+}

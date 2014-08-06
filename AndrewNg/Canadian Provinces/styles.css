@@ -1,0 +1,109 @@
+body{
+	font-family: Arial;
+	color: white;
+
+}
+a{
+	color: #FF0000;
+}
+
+img.inline{
+	float: left;
+	width:300px;
+	background: #A4A4A4;
+	border: 1px solid #333;
+	padding:5px;
+}
+.p1{
+	color:black;
+}
+.p2{
+	color:black;
+}
+.inline.left{
+	float:left;
+	margin:0 15px 0 0;
+}
+.inline.right{
+	float:right;
+	margin: 0 0 0 15px;
+}
+.flag{
+	float:left;
+	height: 100px;
+	margin: 0 0 0 15px;
+	background: #A4A4A4;
+	border: 1px solid #333;
+	padding:5px;
+}
+.logo{
+	float:left;
+	height:100px;
+	margin:0 15px 0 0;
+
+}
+.map{
+	float: right;
+	margin: 0 0 0 15px;
+	background: #A4A4A4;
+	border: 1px solid #333;
+	padding:5px;
+	width: 360px;
+	height:400px;
+
+}
+.head{
+	line-height: 100px;
+	color:black;
+	text-decoration: underline;
+	border: 1px solid #333;
+	padding:5px;
+	width:260px;
+
+}
+h1{
+	line-height: 100px;
+	color:#B40404;
+	text-decoration: underline;	
+
+}
+.nav{
+		float:left;
+		margin: 0 5% 0 0;
+		width: 25%;
+	}
+ul.button li{
+
+		margin: 0 5% 0 0;
+		width: 25%;
+		padding:15px;
+		border: 2px solid #333;
+		background-color: blue;
+
+		
+}
+.content {
+	float: right;
+	width:70%;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+    .clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body
+{
+background-image:url('http://www.mylifeinhdr.com/wp-content/uploads/2012/07/untitled-203_4_5_tonemapped.jpg');
+background-color:#cccccc;
+background-size: cover;
+background-position: center;
+}

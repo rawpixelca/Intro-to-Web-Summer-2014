@@ -1,0 +1,25 @@
+body {
+	background: #FFFFCC;
+	font-family: 'Nunito';
+}
+
+.nav {
+	margin-top: 50px;
+}
+
+.nav li a,
+.nav li a:hover {
+	background: none;
+	font-size: 1.1em;
+}
+
+.cta-button {
+	color: #FAF3BC;
+	background: #4FB69F;
+	padding: 15px 30px;
+	margin: 40px 0px;
+	border-radius: 25px;
+	text-transform: uppercase;
+	border: none;
+	font-size: 1.1em;
+}

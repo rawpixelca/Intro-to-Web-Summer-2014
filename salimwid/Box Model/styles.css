@@ -1,0 +1,66 @@
+span {
+	background: red;
+}
+
+.title {
+	background-color: #444;
+	height: 100px;
+	width: 100px;
+	position: fixed;
+}
+
+.box {
+	background-color: #444;
+	border-radius: 300px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 150px;
+}
+
+.ancestor:hover {
+	border: solid 4px;
+}
+.ancestor {
+	background-color: #f11;
+	background-size: cover;
+	background: url(http://i.imgur.com/pd99beB.jpg?1?4648);
+	height: 300px;
+	padding: 10px;
+	position: relative;
+}
+
+a {
+	background: green;
+	display: inline-block;
+	line-height: 50px;
+}
+
+.nav a {
+	margin: 15px;
+	padding: 20px;
+	display: block;
+}
+
+.hi {
+	display: block;
+}
+
+.button {
+	width: 10px;
+	height: 10px;
+}
+
+.blue_button {
+	background-color: blue;
+	border-radius: 350px;
+	height: 50px;
+	width: 50px;
+}
+
+.container {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Bootstrap Basics | Zina Nelku</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css" rel="stylesheet">
+		<link href="styles.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				
+				<h1>Twitter Bootstrap</h1>
+				<h2>A Brief Summary</h2>
+			<div class"nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="grid.html" class="selected">Grid System</a></li>
+					<li><a href="pictures.html">Pictures</a></li>
+					<li><a href="forms.html">Forms</a></li>
+				</ul>
+			</div>
+			</header>	
+			<section>
+				<h3>The Bootstrap Grid System</h3>
+			
+
+<ul>
+    <li>Rows must be placed within a <code>.container</code> (fixed-width) or <code>.container-fluid</code> (full-width) for proper alignment and padding.</li>
+    <li>Use rows to create horizontal groups of columns.</li>
+    <li>Content should be placed within columns, and only columns may be immediate children of rows.</li>
+    <li>Predefined grid classes like <code>.row</code> and <code>.col-xs-4</code> are available for quickly making grid layouts. Less mixins can also be used for more semantic layouts.</li>
+    <li>Columns create gutters (gaps between column content) via <code>padding</code>. That padding is offset in rows for the first and last column via negative margin on <code>.row</code>s.</li>
+    <li>Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three <code>.col-xs-4</code>.</li>
+  </ul>
+
+			
+				<p>Pictures can be a "circle" by setting class "img-circle":</p>
+				<div class="row">
+					<div class="col-md-4">
+						<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiJ_3aQESjd6vsibU2KTTef059Vk7bFecwxkE-drxUoUYSvDN0IQ" class="img-responsive img-circle" alt="Responsive image">
+					</div>
+					<div class="col-md-4">
+						<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTt96yrq6g5MztLsPkPOAZ2BTFmwfMx9jE23CUNm1tFb01l34P-" class="img-responsive img-circle" alt="Responsive image">
+					</div>
+					<div class="col-md-4">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4BIhv3GLnaw2ixpyo1_Gk2bmxrH_MlyApKaFxE8OjKFDDaUYN4g" class="img-responsive img-circle" alt="Responsive image">
+					</div>
+
+				<p>Pictures can be a "thumbnail" by setting class "img-thumbnail":</p>
+				<div class="row">
+					<div class="col-md-4">
+						<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiJ_3aQESjd6vsibU2KTTef059Vk7bFecwxkE-drxUoUYSvDN0IQ" class="img-responsive img-thumbnail" alt="Responsive image">
+					</div>
+					<div class="col-md-4">
+						<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTt96yrq6g5MztLsPkPOAZ2BTFmwfMx9jE23CUNm1tFb01l34P-" class="img-responsive img-thumbnail" alt="Responsive image">
+					</div>
+					<div class="col-md-4">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4BIhv3GLnaw2ixpyo1_Gk2bmxrH_MlyApKaFxE8OjKFDDaUYN4g" class="img-responsive img-thumbnail" alt="Responsive image">
+					</div>
+
+				<p>Finally, you can give your pictures rounded corners by setting class "img-rounded":</p>
+				<div class="row">
+					<div class="col-md-4">
+						<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiJ_3aQESjd6vsibU2KTTef059Vk7bFecwxkE-drxUoUYSvDN0IQ" class="img-responsive img-rounded" alt="Responsive image">
+					</div>
+					<div class="col-md-4">
+						<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTt96yrq6g5MztLsPkPOAZ2BTFmwfMx9jE23CUNm1tFb01l34P-" class="img-responsive img-rounded" alt="Responsive image">
+					</div>
+					<div class="col-md-4">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4BIhv3GLnaw2ixpyo1_Gk2bmxrH_MlyApKaFxE8OjKFDDaUYN4g" class="img-responsive img-rounded" alt="Responsive image">
+					</div>					
+
+			</section>
+		</div>
+	</body>
+</html>

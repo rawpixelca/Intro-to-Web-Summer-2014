@@ -1,0 +1,202 @@
+<!Doctype html>
+<html>
+	<header>
+		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</header>
+
+	<body data-spy="scroll" data-target=".dropdown-menu">
+
+		<!-- the home section -->
+		<div class="home">
+			<div class="container">
+				<!-- the top bar -->
+				<div class="row">
+
+					<!-- the nav button -->
+					<nav class="navbar navbar-inverse navbar-default navbar-fixed-top">
+						<div class="container-fluid">
+
+							<!-- to get rid of the mobile toggle the nav-collapse classes in the div were removed -->
+							<div>
+								<!-- this is the shopping cart and its been pulled right and moved up as the first item in the nav to maintain its position -->
+								<ul class="pull-right nav navbar-nav navbar-right">
+									<li><a class="btn btn-lg shop" href="https://www.kickstarter.com/projects/athom/homey-the-living-room-talk-to-your-home/pledge/new?clicked_reward=false&ref=nav_search"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+								</ul>
+								<!-- end of shopping -->
+								<!-- the main button -->
+								<div class="btn-group">
+									<button type="button" class="btn btn-default dropdown-toggle main" data-toggle="dropdown">
+									<span class="glyphicon glyphicon-th"></span>
+									</button>
+									<ul class="dropdown-menu" role="menu">
+									    <li><a href="#home">Home</a></li>
+									    <li><a href="#demo">Demo</a></li>
+									    <li><a href="#features">Features</a></li>
+									    <li><a href="https://www.kickstarter.com/projects/athom/homey-the-living-room-talk-to-your-home?ref=nav_search#">Contact Us</a></li>
+									</ul>
+								</div>
+								<!-- end of button -->
+								<!-- the logo -->
+								<span class="label label-default"><a href="#home"><img src="https://s3.amazonaws.com/ksr/avatars/10626972/Logo-3000x3000.small.jpg?1400072711"></a></span>
+								<!-- end of logo -->
+							</div>
+						</div>
+					</nav>
+					<!-- endof nav button -->
+				</div>
+				<!-- end of the top bar -->
+
+				<!-- the jumbotron and video -->
+				<div class="row" id="home">
+					<div class="col-md-6 col-xs-12">
+						<div class="jumbotron">
+							<h2>
+								Homey, The Living Room - Talk To Your Home!
+							</h2>
+							<p>
+								Homey is speech-controlled home automation. Talk to your home to control everything: from lights to music, from climate to TV. See the story of Homey!</p>
+							<p>
+								<!-- Button trigger modal -->
+								<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+									<span class="glyphicon glyphicon-play"></span>
+								</button>
+
+								<!-- Modal -->
+								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								  <div class="modal-dialog">
+								    <div class="modal-content">
+								      <div class="modal-body">
+								        <iframe width="560" height="400" src="http://www.youtube.com/embed/Rw9z56ntxE8" frameborder="0" allowfullscreen></iframe>
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+								<!-- end of modal -->
+							</p>
+						</div>
+					</div>
+					<!-- end of jumbotron -->
+				</div>
+			</div>
+		</div>
+		<!-- end home section -->
+		
+		<!-- thumbnails -->
+		<div class="thumbnails" id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-4">
+						<button type="button" class="btn btn-default btn-lg btn-block demo">
+							<span class="glyphicon glyphicon-facetime-video"></span>
+							<h4>Demo</h4>
+						</button>
+					</div>
+					<div class="col-xs-4">
+						<a href="https://www.kickstarter.com/projects/athom/homey-the-living-room-talk-to-your-home/pledge/new?clicked_reward=false&ref=nav_search">
+							<button type="button" class="btn btn-default btn-lg btn-block donate">
+								<span class="glyphicon glyphicon-heart-empty"></span>
+								<h4>Donate</h4>
+							</button>
+						</a>
+					</div>
+					<div class="col-xs-4">
+						<a href="https://www.kickstarter.com/projects/athom/homey-the-living-room-talk-to-your-home?ref=nav_search#">
+							<button type="button" class="btn btn-default btn-lg btn-block contact">
+								<span class="glyphicon glyphicon-envelope"></span>
+								<h4>Contact</h4>
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end of thumbnail -->
+
+		<!-- section 3 what homey can do -->
+		<div class="sect3">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="panel-group" id="accordion">
+							<!-- 1st panel -->
+							<div class="panel panel-default">
+							    <div class="panel-heading" >
+							      	<h4 class="panel-title">
+							        	<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+							         	 A Few Things Homey Can Do
+							         	 <img src="https://s3.amazonaws.com/ksr/assets/002/010/003/1110f2a6f4de90f99bff9324099f56b8_large.png?1400088112">
+							        </a>
+							      </h4>
+							    </div>
+
+						   		<div id="collapseOne" class="panel-collapse collapse">
+						     		 <div class="panel-body">
+						      			<h3>Homey Combines Your Devices & The Internet, Allowing For Smart Scenarios!</h3>
+						      			<div class="col-md-8">
+						      				<ul>
+							      				<li>
+							      					When you get home, your lights fade on, your thermostat is already set to a comfortable level and your favorite music is streamed to your receiver.
+							      				</li>
+							      				<li>
+							      					When you need to wake up, the curtains or blinds are opening, your morning tune is playing on your stereo while the weather for today and your e-mails are being read to you. The smell of fresh and automatically made coffee gets you out of bed.
+							      				</li>
+							      				<li>
+							      					When you're in the supermarket, you decide it's going to be pizza tonight. You tell the Homey app to pre-heat your oven by switching it on. If you have a smart fridge, your grocery shopping list is sent to you.
+							      				</li>
+							      				<li>
+							      					When you want to watch a movie, the blinds close, your lights dim, your music fades out, the TV is set to the correct channel and your media center plays the movie.
+
+							      				</li>
+							      				<li>
+							      					When you leave your house, Homey tells you it's going to rain soon, and reminds you to take an umbrella. When you're the last person to leave the house, Homey turns down the heat and switches all your lights and devices off to save energy. Finally, Homey makes sure that your front door is really locked.
+							      				</li>
+							      				<li>
+							      					When you get a call, your music pauses while the call is routed via Bluetooth from your phone and sent to the speakers closest to where you currently are.
+							      				</li>
+							      			</ul>
+							      		</div>
+						      			<div class="col-md-4">
+							      			<img src="https://s3.amazonaws.com/ksr/assets/002/010/009/0d3950630258f506e456289eeae4db1c_large.png?1400088155">
+						      			</div>						   
+						      		</div>
+						   		 </div>
+						  	</div>
+						  	<!-- end of 1st panel -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end of sect3 -->
+		<!-- sect4 -->
+		<div class="sect4">
+			<div class="jumbotron" id="demo">
+				<div class="container">
+				    <div class="row">
+				    	<div class="col-md-7 col-xs-12">
+				    		<div class="jumbotron">
+								<h1>Homey In Action</h1>
+								<p>Homey runs on a node.js server, so developers can make use of the easy-to-learn JavaScript language. It works with a 12V adapter, which will be shipped with a connector to match your region.</p>
+								<p>The Homey Smartphone App is available for iPhone and Android users. Users of other operating systems can use their browser to access and configure Homey on the go.</p>
+							</div>
+				    	</div>
+				    	<div class="col-md-5 col-xs-12">
+				    		<iframe width="560" height="315" src="http://www.youtube.com/embed/LlI3oPCBovA" frameborder="0" allowfullscreen></iframe>
+				    	</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!-- end of sect4 -->
+
+	<!-- jquery first -->
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<!-- javascript -->
+		<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	</body>
+
+</html>

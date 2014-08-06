@@ -1,0 +1,21 @@
+h1{
+  text-decoration: underline;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+body{
+  background-color: #2E64FE;
+}
+.bg-link{
+  border:solid white;
+}
+img{
+  height:260px;
+  width: 260px;
+  border-radius: 100%;
+  border: outset; white;
+  margin:0 auto;
+  display: block;
+}

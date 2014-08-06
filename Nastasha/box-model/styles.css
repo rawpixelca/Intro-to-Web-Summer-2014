@@ -1,0 +1,58 @@
+html {
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.ancestor {
+	background: url(http://wallpaperias.com/wp-content/uploads/2014/05/landscape-flower-wallpaper-flowers-landscape-pictures-hd-tgjbnx4y.jpg);
+	background-size: cover;
+	height: 200px;
+	padding: 50px;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+.box {
+	background-color: #fff;
+	border: 5px solid black;
+	border-radius: 20px;
+	height: 50px;
+	margin: 50px;
+	width: auto;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+}
+
+
+span {
+	background: red;
+	font-weight: bold;
+}
+
+.nav {
+	margin: 20px;
+	width: auto;
+	background: #fff;
+	text-align: center;
+	border-radius: 10px;
+	position: relative;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	background: #fff;
+}
+
+
+.button {
+	background: #B870FF;
+	border-radius: 50px;
+	padding: 10px;
+	line-height: 75px;
+	display: inline-block;
+	width: 120px;
+}

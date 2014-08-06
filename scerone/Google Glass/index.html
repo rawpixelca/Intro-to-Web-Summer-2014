@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Google Glass</title>
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#glass-navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img src="https://www.google.com/glass/start/assets/img/glass.svg"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="glass-navigation">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#section1">What It Does?</a></li>
+					<li><a href="#section2">How it Looks</a></li>
+				</ul>
+			
+			</div>
+		</div>
+	</nav>
+
+	<div id="this-carousel-id" class="carousel slide">
+		<div class="carousel-inner">
+		    <div class="item active item">
+		      <img src="https://www.google.com/glass/start/assets/img/homepage/modularity-mosaic.jpg" alt="" />
+			      <div class="carousel-caption homepage">
+			      	<h3>The Glass Explorer Program</h3>
+					<h4>Join our open beta and help shape the future of Glass</h4>
+			        <li><a href="#" class="btn btn-info" data-toggle="modal" data-target="#myModal">Pre-Order Now</a></li>
+			      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="https://www.google.com/glass/start/assets/img/homepage/prescription-frames.jpg" alt="" />
+			      <div class="carousel-caption homepage">
+			      	<h3>The Glass Explorer Program</h3>
+					<h4>Join our open beta and help shape the future of Glass</h4>
+			        <li><a href="#" class="btn btn-info" data-toggle="modal" data-target="#myModal">Pre-Order Now</a></li>
+			      </div>
+		    </div>
+
+		    <div class="item">
+		      <img src="https://www.google.com/glass/start/assets/img/homepage/shades-hero.jpg" alt="" />
+			      <div class="carousel-caption homepage">
+			      	<h3>The Glass Explorer Program</h3>
+					<h4>Join our open beta and help shape the future of Glass</h4>
+			        <li><a href="#" class="btn btn-info" data-toggle="modal" data-target="#myModal">Pre-Order Now</a></li>
+			      </div>
+		    </div>
+		</div>
+		
+		<a class="carousel-control left" href="#this-carousel-id" data-slide="prev">
+	    		<span class="glyphicon glyphicon-chevron-left"></span></a>
+	   	<a class="carousel-control right" href="#this-carousel-id" data-slide="next">
+	    		<span class="glyphicon glyphicon-chevron-right"></span></a>
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  	<div class="modal-dialog">
+		    	<div class="modal-content">
+		    		<form class="form-horizontal">
+		      			<div class="modal-header">
+		        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        				<h4 class="modal-title" id="myModalLabel">Pre-Order Now!</h4>
+		      			</div>
+		      			
+		      			<div class="modal-body">
+		      				<div class="form-group">
+		      					<label id="contact-name" class="col-sm-2 control-label">Name:</label>
+			      					<div class="col-sm-10">
+			      						<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+			      					</div>
+
+		      				</div>
+		      				
+		      				<div class="form-group">
+		      					<label id="email" class="col-sm-2 control-label">E-Mail:</label>
+
+		      					<div class="col-sm-10">
+		      						<input type="text" class="form-control" id="email" placeholder="you@example.com">
+		      					</div>
+
+		      				</div>
+
+		      				<div class="form-group">
+		      					<label id="address" class="col-sm-2 control-label">Address:</label>
+		      					<div class="col-sm-10">
+		      						<input type="text" class="form-control" id="address" placeholder="Address">
+		      					</div>
+		      				</div>
+		      				<form class="form-inline">
+							   <div class="form-group">
+							    <label class="radio-inline"><b>Type of Credit Card:</b></label>
+							         <label class="radio-inline">
+								     <input id="inlineradio1" name="sampleinlineradio" value="option1" type="radio">
+								     Visa</label>
+								    <label class="radio-inline">
+								     <input id="inlineradio2" name="sampleinlineradio" value="option2" type="radio">
+								     American Express</label>
+								    <label class="radio-inline">
+								     <input id="inlineradio3" name="sampleinlineradio" value="option3" type="radio">
+								     Master Card</label>
+								    </div> 
+							</form>
+		      				<div class="form-group">
+		      					<label id="credit" class="col-sm-2 control-label">Credit Card Number:</label>
+		      					<div class="col-sm-10">
+		      						<input type="text" class="form-control" id="credit" placeholder="Credit Card Number">
+		      					</div>
+		      				</div>
+						</div>
+
+						<div class="modal-footer">
+							<button class="btn btn-primary" type="submit" data-dismiss="modal">Submit Order</button>
+							<a class="btn btn-default" data-dismiss="modal">Close</a>
+						</div>
+					</form>
+	   			</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="what-it-does">
+		<section id="section1">
+		<div class="container">
+			<div class="row">
+				<br>
+				<h3>What it Does</h3>
+				<h4>Glassware Features</h4>
+				<hr>
+					<div class="col-sm-6 run">
+						<div class="strava-run">
+							<a href="#"><img src="https://www.google.com/glass/start/assets/img/whatitdoes/cards/01-Strava-Run.jpg">
+							<p> <span class="sub-heading">Strava Run</span></p></a>
+						</div>	
+					</div>
+					<div class="col-sm-6 run">
+						<div class="navigation">
+							<a href="#"><img src="https://www.google.com/glass/start/assets/img/whatitdoes/cards/02-Navigation.jpg">
+							<p> <span class="sub-heading">Navigation</span></p></a>
+						</div>	
+					</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6 run">
+					<div class="golfsight">
+						<a href="#"><img src="https://www.google.com/glass/start/assets/img/whatitdoes/cards/03-GolfSight-2.jpg">
+							<p> <span class="sub-heading">Golfsight</span></p></a>
+					</div>	
+				</div>
+				<div class="col-sm-6 run">
+					<div class="send-a-message">
+						<a href="#"><img src="https://www.google.com/glass/start/assets/img/whatitdoes/cards/06-SMS.jpg">
+							<p> <span class="sub-heading">Send A Message</span></p></a>
+					</div>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 run">
+					<div class="lynx">
+						<a href="#"><img src="https://www.google.com/glass/start/assets/img/whatitdoes/cards/07-Lynxfit-1.jpg">
+							<p> <span class="sub-heading">Lynx Fit</span></p></a>
+					</div>	
+				</div>
+				<div class="col-sm-6 run">
+					<div class="music">
+						<a href="#"><img src="https://www.google.com/glass/start/assets/img/whatitdoes/cards/08-Music.jpg">
+							<p> <span class="sub-heading">Listen to Music</span></p></a>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="how-it-looks">
+		<section id="section2">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<br>
+					<br>
+					<h3> How it Looks</h3>
+					<hr>
+					<div class="designed">
+						<br>
+						<br>
+						<br>
+						<h3>Designed for You. And What You Do.</h3>
+						<br>
+						<h4>With multiple colors, frames, shades and<br>earbuds, Glass is designed to fit your lifestyle.</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 social">
+				<div class="col-xs-4 social">
+					<a href="#"><img src="http://img1.wikia.nocookie.net/__cb20111228065136/simpsons/images/1/11/Twitter_bird_icon.png"></a>
+				</div>
+
+				<div class="col-xs-4">
+					<a href="#"><img src="http://www.uwc.ac.za/Alumni/PublishingImages/facebook.png"></a>
+				</div>
+
+				<div class="col-xs-4">
+					<a href="#"><img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Google-plus-icon.png"></a>
+				</div>
+			</div>
+
+			<div class="col-sm-4 col-sm-offset-4 google hidden-xs">
+				<img src="https://www.google.com/glass/start/assets/img/google.svg">
+
+			</div>	
+	
+		</div>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+footer{
+	background-color: grey;
+	color: white;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+
+}
+body{
+	background-image:url(http://www.psdgraphics.com/file/basketball-floor-texture.jpg);
+	background-size: cover;
+}
+
+
+h1{
+	text-decoration: underline;
+	text-align: center;
+}
+.pizza{
+	border: solid black;
+	width: 550px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.menu{
+	border: solid black;
+	background-color: red;
+	height: 22px;
+	text-transform: uppercase;
+
+}
+.tomatoes{
+	width: 350px;
+	position: fixed;
+	bottom: 50px;
+	border: solid black;
+
+}
+.deal{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: underline;
+
+}
+.cp{
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline;
+
+
+}
+.breadcrumb{
+	width: 220px;
+	background-color: black;
+	position: relative;
+	left: 10px;
+}
+.logo{
+	height:15px;
+	width: 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+	border: solid #0000FF;
+	background-color: #0000FF;
+
+}
+.navbar{
+	background-color: #DF0101;
+}
+.wings{
+	width: 350px;
+	position: fixed;
+	bottom: 50px;
+	border: solid black;
+	height: 280px;
+
+
+}
+.tickets{
+	position: relative;
+	bottom: 56px;
+}
+
+.tickets2{
+	position: relative;
+	bottom: 56px;
+	right: 0px;
+}
+@media screen and (max-width:767px){
+	.wings{
+		width: 230px;
+		height: 149px;
+		bottom: 50px;
+	}
+	.tomatoes{
+		width: 193px;
+		height: 149px;
+		bottom: 50px;
+
+	}
+	.pizza{
+		margin: 0 auto;
+		display: block;
+		width: 385px;
+	}
+}
+.map{
+	margin: 0 auto;
+	display: block;
+}
+.copyright{
+	bottom:0px;
+}
+.pizza2{
+	margin: 0 auto;
+	display: block;
+	border: solid black;
+	width: 550px;
+	height: 367px;
+}
+
+
